@@ -10,7 +10,7 @@ function adicionarAmigo(){
     listandoAmigos()
    }
    limparCampo()
- 
+   limparSorteado()
 }
 
 function limparCampo(){
@@ -25,8 +25,26 @@ function listandoAmigos(){
     listaAmigos.appendChild(addNovo)
 }
 
+function sortearAmigo(){
+    let sorteio =  Math.floor(Math.random() * amigo.length)
+    console.log(amigo[sorteio])
+    let exibirAmigo = document.getElementById('resultado')
+    exibirAmigo.textContent= "O amigo secreto sorteado é: "+amigo[sorteio]
+    listaAmigos.innerHTML =''
+    reiniciar()
+}
 
 adicionarAmigo()
+
+function reiniciar(){
+    amigo.length = 0   
+    
+}
+
+function limparSorteado(){
+    let exibirAmigo = document.getElementById('resultado')
+    exibirAmigo.textContent = ''
+}
 
 
 
