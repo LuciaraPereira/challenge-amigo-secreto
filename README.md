@@ -16,4 +16,10 @@ Sorteio![sorteioAmg](https://github.com/user-attachments/assets/d4b5de1a-1dd4-48
 
 Validação, caso tente adicionar um amigo com o campo vazio![validacaoAmg](https://github.com/user-attachments/assets/18d27143-e8e2-40cc-a1a3-8a6572da11e9)
 
-[Tecnologias utilizadas](#tecnologias-utilizadas)
+# Meu Projeto
+
+![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
+
