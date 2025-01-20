@@ -34,7 +34,7 @@ function sortearAmigo(){
     reiniciar()
 }
 
-adicionarAmigo()
+
 
 function reiniciar(){
     amigo.length = 0   
